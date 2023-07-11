@@ -1,8 +1,5 @@
 pipeline {
     agent any
-    tools {
-            dotnet 'dotnet6'
-        }
     environment {
         APP_NAME = 'RecipeApp'
         SCANNER_HOME = '/opt/sonar-scanner/bin'
